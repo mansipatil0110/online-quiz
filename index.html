@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <div class="quiz-header">
+            <h1>🧠 Online Quiz</h1>
+            <p>Test Your Knowledge!</p>
+        </div>
+
+        <div class="quiz-info">
+            <span>
+                Question <span id="question-number">1</span>/10
+            </span>
+
+            <span>
+                Score: <span id="score">0</span>
+            </span>
+        </div>
+
+        <div class="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+
+        <div class="quiz-box">
+
+            <h2 id="question">
+                Question will appear here
+            </h2>
+
+            <div id="answer-buttons" class="answer-buttons">
+            </div>
+
+            <button id="next-btn">
+                Next Question ➜
+            </button>
+
+        </div>
+
+        <div id="result-box" class="result-box">
+
+            <h2>🎉 Quiz Completed!</h2>
+
+            <p>Your Score</p>
+
+            <h1 id="final-score">0 / 10</h1>
+
+            <p id="result-message"></p>
+
+            <button id="restart-btn">
+                🔄 Play Again
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
